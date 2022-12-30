@@ -1,26 +1,80 @@
 {
   "sections": {
+    "446c1696-0238-4d74-b8dd-161ed51338ad": {
+      "type": "ig-story-links",
+      "blocks": {
+        "b20704cc-c431-4f4b-9975-bf7c2629fe22": {
+          "type": "story",
+          "settings": {
+            "collection_link": "",
+            "collection_img": "shopify:\/\/shop_images\/58afe049829958a978a4a6c0.png",
+            "collection_title": "New"
+          }
+        },
+        "a52d0fcb-671d-4b4a-aaac-f32c7ee53c6b": {
+          "type": "story",
+          "settings": {
+            "collection_link": "",
+            "collection_img": "shopify:\/\/shop_images\/Flag_of_Mexico_svg.png",
+            "collection_title": "Mexico"
+          }
+        },
+        "c21a2511-ad87-43a2-92c8-c3912463c491": {
+          "type": "story",
+          "settings": {
+            "collection_link": "",
+            "collection_img": "shopify:\/\/shop_images\/Flag_of_Ethiopia_svg.png",
+            "collection_title": "Ethiopia"
+          }
+        },
+        "fa7dc8f9-86f4-48bf-9683-f37a248b5d25": {
+          "type": "story",
+          "settings": {
+            "collection_link": "",
+            "collection_img": "shopify:\/\/shop_images\/Flag_of_Guatemala_svg.png",
+            "collection_title": "Guatemala"
+          }
+        },
+        "73280d59-2a1c-4081-a299-6a53ad47bdc7": {
+          "type": "story",
+          "settings": {
+            "collection_link": "",
+            "collection_img": "shopify:\/\/shop_images\/243px-Flag_of_Brazil_svg.png",
+            "collection_title": "Brazil"
+          }
+        }
+      },
+      "block_order": [
+        "b20704cc-c431-4f4b-9975-bf7c2629fe22",
+        "a52d0fcb-671d-4b4a-aaac-f32c7ee53c6b",
+        "c21a2511-ad87-43a2-92c8-c3912463c491",
+        "fa7dc8f9-86f4-48bf-9683-f37a248b5d25",
+        "73280d59-2a1c-4081-a299-6a53ad47bdc7"
+      ],
+      "settings": {
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "heading": "Brew Your Problems Away",
+            "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "It's really as easy as that.",
             "text_style": "body"
           }
         },
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
+            "button_label_1": "Explore Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": true,
             "button_label_2": "",
@@ -35,11 +89,11 @@
         "button"
       ],
       "settings": {
-        "image": "{{ shop.brand.cover_image }}",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
+        "image": "shopify:\/\/shop_images\/pouring-coffee-closeup.jpg",
+        "image_overlay_opacity": 50,
+        "image_height": "medium",
         "adapt_height_first_image": false,
-        "desktop_content_position": "bottom-center",
+        "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
@@ -48,47 +102,17 @@
         "show_text_below": false
       }
     },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
+        "title": "Coffee Selection",
+        "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
         "products_to_show": 8,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -100,123 +124,15 @@
         "show_rating": false,
         "enable_quick_add": false,
         "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "swipe_on_mobile": true,
+        "padding_top": 72,
+        "padding_bottom": 72
       }
     }
   },
   "order": [
+    "446c1696-0238-4d74-b8dd-161ed51338ad",
     "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "multicolumn"
+    "featured_collection"
   ]
 }
