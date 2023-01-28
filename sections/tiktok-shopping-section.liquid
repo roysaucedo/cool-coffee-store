@@ -1,0 +1,68 @@
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
+
+{%- style -%}
+  .header {
+    display: none;
+  }
+  .footer {
+    display: none;
+  }
+{%- endstyle -%}
+<div class="relative">
+  <div class="flex justify-center items-center p-4 fixed top-0 left-0 right-0 z-10 bg-white">
+  <img src="https://cdn.shopify.com/s/files/1/0563/7970/3502/files/local_cafe_FILL0_wght400_GRAD0_opsz48.png?v=1672097109" alt="">
+</div>
+
+</div>
+
+
+<div class="snap-mandatory snap-y w-screen h-screen overflow-scroll">
+        <!-- SLIDE 1 -->
+        <div class="snap-start w-screen h-screen flex justify-center items-center relative">
+            <img class="w-auto min-h-full" src="https://cdn.shopify.com/s/files/1/0563/7970/3502/files/13_Pro_-_4.png?v=1674945071" alt="Img 1">
+            <div class="text-center text-l absolute bottom-0 right-0 bg-white p-4 rounded-tl-lg w-auto">Shop Now →</div>
+        </div>
+         <!-- SLIDE 2 -->
+        <div class="snap-start w-screen h-screen flex justify-center items-center relative">
+            <img class="w-auto min-h-full" src="https://cdn.shopify.com/s/files/1/0563/7970/3502/files/13_Pro_-_3.png?v=1674945079" alt="Img 1">
+            <div class="text-center text-l absolute bottom-0 right-0 bg-white p-4 rounded-tl-lg w-auto">Shop Now →</div>
+        </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:sections.main-page.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    }
+  ]
+}
+{% endschema %}

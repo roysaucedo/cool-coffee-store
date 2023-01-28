@@ -6,7 +6,7 @@
         "b20704cc-c431-4f4b-9975-bf7c2629fe22": {
           "type": "story",
           "settings": {
-            "collection_link": "",
+            "collection_link": "shopify:\/\/collections",
             "collection_img": "shopify:\/\/shop_images\/58afe049829958a978a4a6c0.png",
             "collection_title": "New"
           }
@@ -14,7 +14,7 @@
         "a52d0fcb-671d-4b4a-aaac-f32c7ee53c6b": {
           "type": "story",
           "settings": {
-            "collection_link": "",
+            "collection_link": "shopify:\/\/products\/mexico-single-origin-beans",
             "collection_img": "shopify:\/\/shop_images\/Flag_of_Mexico_svg.png",
             "collection_title": "Mexico"
           }
@@ -22,7 +22,7 @@
         "c21a2511-ad87-43a2-92c8-c3912463c491": {
           "type": "story",
           "settings": {
-            "collection_link": "",
+            "collection_link": "shopify:\/\/products\/ethiopia-single-origin-beans",
             "collection_img": "shopify:\/\/shop_images\/Flag_of_Ethiopia_svg.png",
             "collection_title": "Ethiopia"
           }
@@ -30,7 +30,7 @@
         "fa7dc8f9-86f4-48bf-9683-f37a248b5d25": {
           "type": "story",
           "settings": {
-            "collection_link": "",
+            "collection_link": "shopify:\/\/products\/guatemala-single-origin-beans",
             "collection_img": "shopify:\/\/shop_images\/Flag_of_Guatemala_svg.png",
             "collection_title": "Guatemala"
           }
@@ -38,7 +38,7 @@
         "73280d59-2a1c-4081-a299-6a53ad47bdc7": {
           "type": "story",
           "settings": {
-            "collection_link": "",
+            "collection_link": "shopify:\/\/products\/australian-single-origin-beans",
             "collection_img": "shopify:\/\/shop_images\/243px-Flag_of_Brazil_svg.png",
             "collection_title": "Brazil"
           }

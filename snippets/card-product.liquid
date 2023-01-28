@@ -196,7 +196,6 @@
             {%- endif -%}
 
             {% render 'price', product: card_product, price_class: '' %}
-            {{ product.metafields.custom.roy.value }}
           </div>
         </div>
         {%- if show_quick_add -%}
@@ -313,14 +312,6 @@
               {{- 'products.product.on_sale' | t -}}
             </span>
           {%- endif -%}
-        </div>
-        <div class="card__badge {{ settings.badge_position }}">
-              <span
-                id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
-                class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
-              >
-                ROY
-              </span>
         </div>
       </div>
     </div>

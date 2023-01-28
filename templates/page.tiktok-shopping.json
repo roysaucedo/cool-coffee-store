@@ -1,0 +1,12 @@
+{
+  "sections": {
+    "main": {
+      "type": "tiktok-shopping-section",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
